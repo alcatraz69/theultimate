@@ -1,22 +1,16 @@
 .projectHeading {
   text-align: center;
-  margin: 100px 0;
-}
-
-p {
-  font-weight: 300;
-  line-height: 2rem;
+  margin: 200px 0 100px 0;
 }
 
 .contentSec {
   margin: 60px;
-  /* padding: 10px; */
 }
 
 .contentCard {
   display: flex;
   flex-direction: row;
-  margin: 150px 100px;
+  margin: 150px 145px;
 }
 
 .contentImg {
@@ -27,6 +21,8 @@ p {
   /* background-color: black; */
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   padding: 20px;
+  font-weight: 300;
+  line-height: 2rem;
 }
 
 .contentDetailsSec {
@@ -37,7 +33,7 @@ p {
 .rev {
   display: flex;
   flex-direction: row-reverse;
-  margin: 150px 80px;
+  margin: 150px 145px;
 }
 
 button {

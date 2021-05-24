@@ -1,4 +1,5 @@
 import styles from "./Landing.module.css";
+import {Button} from '../Button/Button'
 
 const Landing = () => {
   return (
@@ -11,9 +12,10 @@ const Landing = () => {
         (and occasionally designing) exceptional websites, applications, and
         everything in between.
       </p>
-      <a href="mailto:prkantikar69@gmail.com" className={styles.email_link}>
+      {/* <a href="mailto:prkantikar69@gmail.com" className={styles.email_link}>
         Get In Touch
-      </a>
+      </a> */}
+      <Button text="Get In Touch"/>
     </div>
   );
 };

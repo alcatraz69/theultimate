@@ -6,15 +6,6 @@
   position: fixed;
 }
 
-/* .iList::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 90px;
-    margin: 0px auto;
-    background-color: white;
-  } */
-
 .icon {
   width: 18px;
   height: 18px;
@@ -26,7 +17,7 @@
 }
 
 .icon:hover {
-  background-color: #fa9141;
+  background-color: orange;
 }
 
 @media (max-width: 768px) {

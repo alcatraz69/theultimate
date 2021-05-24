@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  margin-left: 30px;
+}
+
+.navigationItemsDesktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35%;
+}
+
+.navButton {
+  color: #fff;
+  cursor: pointer;
+  animation-name: fadeIn;
+  animation-duration: 1500ms;
+}
+
+.activeDesktop {
+  border-bottom: 2px solid orange;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .navigationItemsDesktop {
+    display: none;
+  }
+}
