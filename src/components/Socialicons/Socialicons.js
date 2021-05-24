@@ -5,28 +5,43 @@ import instagram from "./icons/instagram.svg";
 import codesand from "./icons/codesandbox.svg";
 import linkd from "./icons/linkedin.svg";
 
-const Socialicons = (props) => {
+const Socialicons = () => {
   return (
     <div>
       <ul className={styles.iList}>
         <li className={styles.icon}>
-          <img src={github} alt="" />
+            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <img src={github} alt="" />
+            </a>
+          
         </li>
 
         <li className={styles.icon}>
-          <img src={twitter} alt="" />
+            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <img src={twitter} alt="" />
+            </a>
+          
         </li>
 
         <li className={styles.icon}>
-          <img src={instagram} alt="" />
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <img src={instagram} alt="" />
+            </a>
+          
         </li>
 
         <li className={styles.icon}>
-          <img src={codesand} alt="" />
+            <a href="https://codesandbox.com" target="_blank" rel="noreferrer">
+            <img src={codesand} alt="" />
+            </a>
+          
         </li>
 
         <li className={styles.icon}>
-          <img src={linkd} alt="" />
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <img src={linkd} alt="" />
+            </a>
+          
         </li>
       </ul>
     </div>
