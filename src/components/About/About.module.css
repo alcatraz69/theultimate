@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+.aboutSec {
+  display: flex;
+  margin: 160px;
+}
+
+.aboutDes {
+  padding: 0 50px;
+  line-height: 2rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.listElement {
+  list-style-type: none;
+  position: relative;
+  padding-left: 14px;
+}
+
+.listElement:before {
+  content: "\25BA \0020";
+  font-size: 6px;
+  position: absolute;
+  top: 3px;
+  left: -10px;
+}
+
+@media (max-width: 768px) {
+  .aboutSec {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .aboutImg {
+    width: 100%;
+  }
+  .aboutDes {
+    padding: 0 10px;
+    line-height: 2rem;
+  }
+}
