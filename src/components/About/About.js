@@ -8,7 +8,7 @@ const About = () => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div>
+    <div id="about" style={{paddingTop:"40px"}}>
       <div data-aos="fade-up" className={styles.aboutSec}>
         <div /*data-aos="fade-right"*/ className={styles.aboutImgSec}>
           <img

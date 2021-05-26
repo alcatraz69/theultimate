@@ -23,6 +23,7 @@
   cursor: pointer;
   animation-name: fadeIn;
   animation-duration: 1500ms;
+  text-decoration: none;
 }
 
 .activeDesktop {

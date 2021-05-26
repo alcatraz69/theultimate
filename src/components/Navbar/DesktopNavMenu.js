@@ -1,5 +1,7 @@
 import logo from './Logo/mylogo.png'
 import styles from './DesktopNavMenu.module.css'
+import { HashLink as Link} from 'react-router-hash-link'
+
 
 const Navbar=(props)=>{
     return(
@@ -9,19 +11,19 @@ const Navbar=(props)=>{
         </div>
         <div className={styles.navigationItemsDesktop}>
                 <p className={`${styles.navButton} ${styles.activeDesktop}`}>
-                    Home
+                    <Link smooth to="#home" className={styles.navButton}> Home </Link>
                 </p>
-                <p className={styles.navButton}>
-                    About
+                <p >
+                    <Link smooth to="#about" className={styles.navButton}> About</Link>
                 </p>
-                <p className={styles.navButton}>
-                    Projects
+                <p >
+                    <Link smooth to="#projects" className={styles.navButton}> Projects </Link>
                 </p>
-                <p className={styles.navButton}>
-                    Blogs
+                <p >
+                   <Link smooth to="#blogs" className={styles.navButton}> Blogs</Link>
                 </p>
-                <p className={styles.navButton}>
-                    Contact
+                <p >
+                   <Link smooth to="#contact" className={styles.navButton}> Contact</Link>
                 </p>
             </div>
             </div>

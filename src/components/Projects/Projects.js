@@ -8,7 +8,7 @@ export default function Projects() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div className="App">
+    <div className="App" id="projects">
       <h1 className={styles.projectHeading}>
         Recent <span style={{ color: "orange" }}>Projects</span>
       </h1>

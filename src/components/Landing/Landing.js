@@ -3,7 +3,7 @@ import {Button} from '../Button/Button'
 
 const Landing = () => {
   return (
-    <div className={styles.main_sec}>
+    <div className={styles.main_sec} id="home">
       <h1 className={styles.sm_heading}>Hi, my name is</h1>
       <h2 className={styles.big_heading}>Prem Kantikar.</h2>
       <h3 className={styles.big_heading}>I build things for the web.</h3>

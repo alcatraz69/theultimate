@@ -5,7 +5,7 @@ import exportsvg from '../Socialicons/icons/export.svg';
 
 const Blogs=(props)=>{
     return(
-        <div className={styles.blogContainer}>
+        <div className={styles.blogContainer} id="blogs">
             <h1 className={styles.blogHeading}>Blog <span style={{ color: "orange" }}>Section</span></h1>
             <div className={styles.cards}>
             <div className={styles.card}>
