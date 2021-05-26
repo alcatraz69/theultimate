@@ -9,15 +9,15 @@ const About = () => {
   }, []);
   return (
     <div id="about" style={{paddingTop:"40px"}}>
-      <div data-aos="fade-up" className={styles.aboutSec}>
-        <div /*data-aos="fade-right"*/ className={styles.aboutImgSec}>
+      <div /*data-aos="fade-up"*/ className={styles.aboutSec}>
+        <div data-aos="fade-right" className={styles.aboutImgSec}>
           <img
             className={styles.aboutImg}
             src="https://picsum.photos/id/15/450/500"
             alt=""
           ></img>
         </div>
-        <div /*data-aos="fade-left"*/ className={styles.aboutDes}>
+        <div data-aos="fade-left" className={styles.aboutDes}>
           <h1>About Me</h1>
           <p>
             I am a Frontend Developer, looking for a role in an exciting
