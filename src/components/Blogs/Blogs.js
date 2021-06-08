@@ -34,11 +34,10 @@ const Blogs = () => {
         </div>
         <div className={styles.square}>
           <img src={blog1} className={styles.blogImg} alt="blog2 pic"></img>
-          <div className={styles.h1}>Is Apple a Design Company?</div>
+          <div className={styles.h1}>Wonderful Web Communication!</div>
           <p className={styles.blogDesc}>
-            Apple is more than a tech company; it became a culture unto itself,
-            a passion of most of people and the birthplace of the world’s most
-            revolutionized products.
+            In this blog I have explained how the communication bewteen
+            computers and other devices over the internet takes place.
           </p>
 
           <div>
