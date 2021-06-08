@@ -1,119 +1,83 @@
-import React from 'react';
-import styles from './Blogs.module.css'
-import github from '../Socialicons/icons/github.svg';
-import exportsvg from '../Socialicons/icons/export.svg';
+import React from "react";
+import styles from "./Blogs.module.css";
+import blog1 from "./BlogAssests/blog1.png";
 
-const Blogs=(props)=>{
-    return(
-        <div className={styles.blogContainer} id="blogs">
-            <h1 className={styles.blogHeading}>Blog <span style={{ color: "orange" }}>Section</span></h1>
-            <div className={styles.cards}>
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=59" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=82" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=39" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=11" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=18" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card}>
-                <div className={styles.cardImg}>
-                    <img className={styles.cardimage} src="https://unsplash.it/800/600?image=69" alt="blog-img"/>
-                </div>
-                <div className={styles.cardContent}>
-                    <div className={styles.cardTitle}>
-                    <h4 className={styles.greytxt}>Time to Have More Fun</h4>
-                    </div>
-                    <div className={styles.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
-                    </div>
-                    <div className={styles.blogiconcontainer}>
-                        <img className={styles.blogicon} src={github} alt=""/>
-                        <img className={styles.blogicon} src={exportsvg} alt=""/>
-                    </div>
-                </div>
-            </div>
-            </div>
+const Blogs = () => {
+  return (
+    <>
+      <h1 className={styles.blogHeading}>
+        Blog <span style={{ color: "orange" }}>Section</span>
+      </h1>
+      <div className={styles.container}>
+        <div className={styles.square}>
+          <img
+            src="https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1c8fe0c9197d66232511525bfd1cc82&auto=format&fit=crop&w=1100&q=80"
+            className={styles.blogImg}
+            alt="blog1 pic"
+          ></img>
+          <div className={styles.h1}>Is Apple a Design Company?</div>
+          <p className={styles.blogDesc}>
+            Apple is more than a tech company; it became a culture unto itself,
+            a passion of most of people and the birthplace of the world’s most
+            revolutionized products.
+          </p>
+
+          <div>
+            <a
+              href="https://medium.com/@laheshk/is-apple-a-design-company-f5c83514e261"
+              target="_"
+              className={styles.button}
+            >
+              Read More
+            </a>
+          </div>
         </div>
-    )
-}
+        <div className={styles.square}>
+          <img src={blog1} className={styles.blogImg} alt="blog2 pic"></img>
+          <div className={styles.h1}>Is Apple a Design Company?</div>
+          <p className={styles.blogDesc}>
+            Apple is more than a tech company; it became a culture unto itself,
+            a passion of most of people and the birthplace of the world’s most
+            revolutionized products.
+          </p>
+
+          <div>
+            <a
+              href="https://medium.com/@laheshk/is-apple-a-design-company-f5c83514e261"
+              target="_"
+              className={styles.button}
+            >
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <div className={styles.square}>
+          <img
+            src="https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1c8fe0c9197d66232511525bfd1cc82&auto=format&fit=crop&w=1100&q=80"
+            className={styles.blogImg}
+            alt="blog3 pic"
+          ></img>
+          <div className={styles.h1}>Is Apple a Design Company?</div>
+          <p className={styles.blogDesc}>
+            Apple is more than a tech company; it became a culture unto itself,
+            a passion of most of people and the birthplace of the world’s most
+            revolutionized products.
+          </p>
+
+          <div>
+            <a
+              href="https://medium.com/@laheshk/is-apple-a-design-company-f5c83514e261"
+              target="_"
+              className={styles.button}
+            >
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Blogs;

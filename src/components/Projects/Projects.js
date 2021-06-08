@@ -12,7 +12,7 @@ export default function Projects() {
       <h1 className={styles.projectHeading}>
         Recent <span style={{ color: "orange" }}>Projects</span>
       </h1>
-      <section className={styles.contentSec }>
+      <section className={styles.contentSec}>
         <div data-aos="fade-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
             <img
@@ -34,7 +34,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className={`${styles.contentCard} ${styles.rev}`}>
+        <div data-aos="fade-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
             <img
               className={styles.contentImg}
@@ -77,7 +77,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className={`${styles.contentCard} ${styles.rev}`}>
+        <div data-aos="fade-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
             <img
               className={styles.contentImg}
