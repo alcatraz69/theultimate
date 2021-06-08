@@ -26,8 +26,24 @@ export default function Projects() {
               conists of Auth and user specific Library section which has liked
               videos and playlists of the user.
             </p>
-            <button>Live Demo</button>
-            <button>Source Code</button>
+            <div style={{ marginTop: "30px" }}>
+              <a
+                href="https://musicflix.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.button}
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://musicflix.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.button}
+              >
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
 
@@ -42,8 +58,24 @@ export default function Projects() {
               of Auth and user specific Wishlist and Cart section, The App also
               has filters that can be applied to search the ptoducts.
             </p>
-            <button>Live Demo</button>
-            <button>Source Code</button>
+            <div style={{ marginTop: "30px" }}>
+              <a
+                href="https://musicmart.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.button}
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://musicmart.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.button}
+              >
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
 
@@ -56,16 +88,27 @@ export default function Projects() {
             ></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
-            <h2>Project Name</h2>
+            <h2>Quizy App</h2>
             <p className={styles.contentDetails}>
-              This webapp, built using HTML, CSS and vanillaJS, is a simple note
-              taking app. The app uses localStorage to save the notes and hence
-              they're not lost even if you close your tab/browser. The app also
-              provides.
+              This is a fully responsive webapp, built using Typescript MERN is
+              a Full-Stack webapp that hosts quiz of various interests it
+              consists of Auth, user specific scoreboard and answer review
+              options.
             </p>
-
-            <button>Live Demo</button>
-            <button>Source Code</button>
+            <div style={{ marginTop: "30px" }}>
+              <a
+                href="https://musicmart.netlify.app/"
+                className={styles.button}
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://musicmart.netlify.app/"
+                className={styles.button}
+              >
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
 
@@ -85,8 +128,20 @@ export default function Projects() {
               they're not lost even if you close your tab/browser. The app also
               provides.
             </p>
-            <button>Live Demo</button>
-            <button>Source Code</button>
+            <div style={{ marginTop: "30px" }}>
+              <a
+                href="https://musicmart.netlify.app/"
+                className={styles.button}
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://musicmart.netlify.app/"
+                className={styles.button}
+              >
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
       </section>

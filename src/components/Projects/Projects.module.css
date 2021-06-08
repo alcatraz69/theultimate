@@ -37,10 +37,11 @@
   margin: 150px 145px;
 }
 
-button {
+.button {
   background-color: transparent;
   border: 2px solid orange;
-  padding: 12px 20px;
+  padding: 12px 35px;
+  text-decoration: none;
   margin-right: 40px;
   color: white;
   width: 30%;
