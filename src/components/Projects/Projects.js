@@ -4,6 +4,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import musicflix from "./ProjectAssets/musicflixmockup.png";
 import musicmart from "./ProjectAssets/musicmartmockup.png";
+import quiz from "./ProjectAssets/qmockup.png";
+import dummy from "./ProjectAssets/dummy.jpg";
 
 export default function Projects() {
   useEffect(() => {
@@ -81,11 +83,7 @@ export default function Projects() {
 
         <div data-aos="fade-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
-            <img
-              className={styles.contentImg}
-              src="https://picsum.photos/id/11/500/350"
-              alt=""
-            ></img>
+            <img className={styles.contentImg} src={quiz} alt=""></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
             <h2>Quizy App</h2>
@@ -114,11 +112,7 @@ export default function Projects() {
 
         <div data-aos="fade-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
-            <img
-              className={styles.contentImg}
-              src="https://picsum.photos/id/8/500/350"
-              alt=""
-            ></img>
+            <img className={styles.contentImg} src={dummy} alt=""></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>MusicFlix Video Library</h2>
