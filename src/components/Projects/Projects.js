@@ -17,7 +17,7 @@ export default function Projects() {
         Recent <span style={{ color: "orange" }}>Projects</span>
       </h1>
       <section className={styles.contentSec}>
-        <div data-aos="fade-up" className={styles.contentCard}>
+        <div data-aos="zoom-in-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
             <img className={styles.contentImg} src={musicflix} alt=""></img>
           </div>
@@ -49,7 +49,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className={` ${styles.rev}`}>
+        <div data-aos="zoom-in-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
             <img className={styles.contentImg} src={musicmart} alt=""></img>
           </div>
@@ -81,7 +81,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className={styles.contentCard}>
+        <div data-aos="zoom-in-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
             <img className={styles.contentImg} src={quiz} alt=""></img>
           </div>
@@ -110,7 +110,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className={` ${styles.rev}`}>
+        <div data-aos="zoom-in-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
             <img className={styles.contentImg} src={dummy} alt=""></img>
           </div>

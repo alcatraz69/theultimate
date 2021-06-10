@@ -4,7 +4,7 @@ import blog1 from "./BlogAssests/blog1.png";
 
 const Blogs = () => {
   return (
-    <>
+    <div id="blogs">
       <h1 className={styles.blogHeading}>
         Blog <span style={{ color: "orange" }}>Section</span>
       </h1>
@@ -75,7 +75,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
