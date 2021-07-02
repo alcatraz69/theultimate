@@ -2,20 +2,17 @@ import { useEffect } from "react";
 import styles from "./About.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import profileImg from "./AboutAssets/newdp.jpg";
 
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div id="about" style={{paddingTop:"40px"}}>
+    <div id="about" style={{ paddingTop: "40px" }}>
       <div /*data-aos="fade-up"*/ className={styles.aboutSec}>
         <div data-aos="fade-right" className={styles.aboutImgSec}>
-          <img
-            className={styles.aboutImg}
-            src="https://picsum.photos/id/15/450/500"
-            alt=""
-          ></img>
+          <img className={styles.aboutImg} src={profileImg} alt=""></img>
         </div>
         <div data-aos="fade-left" className={styles.aboutDes}>
           <h1>About Me</h1>

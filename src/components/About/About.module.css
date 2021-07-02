@@ -7,6 +7,10 @@ body {
   margin: 160px 200px;
 }
 
+.aboutImg {
+  width: 420px;
+}
+
 .aboutDes {
   padding: 0 50px;
   line-height: 2rem;
