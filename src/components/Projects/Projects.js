@@ -97,6 +97,8 @@ export default function Projects() {
               <a
                 href="https://musicmart.netlify.app/"
                 className={styles.button}
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
@@ -126,6 +128,8 @@ export default function Projects() {
               <a
                 href="https://musicmart.netlify.app/"
                 className={styles.button}
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Demo
               </a>
