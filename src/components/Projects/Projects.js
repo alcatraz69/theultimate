@@ -38,7 +38,7 @@ export default function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://musicflix.netlify.app/"
+                href="https://github.com/alcatraz69/musicflix/tree/development"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.button}
@@ -70,7 +70,7 @@ export default function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://musicmart.netlify.app/"
+                href="https://github.com/alcatraz69/musicmart/tree/development"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.button}
@@ -95,7 +95,7 @@ export default function Projects() {
             </p>
             <div style={{ marginTop: "30px" }}>
               <a
-                href="https://musicmart.netlify.app/"
+                href="https://alcatrazquiz.netlify.app/"
                 className={styles.button}
                 target="_blank"
                 rel="noreferrer"
@@ -103,7 +103,7 @@ export default function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://musicmart.netlify.app/"
+                href="https://github.com/alcatraz69/quizy/tree/development"
                 className={styles.button}
               >
                 Source Code
@@ -117,7 +117,7 @@ export default function Projects() {
             <img className={styles.contentImg} src={dummy} alt=""></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
-            <h2>MusicFlix Video Library</h2>
+            <h2>Musicality - Social Media App</h2>
             <p className={styles.contentDetails}>
               This webapp, built using HTML, CSS and vanillaJS, is a simple note
               taking app. The app uses localStorage to save the notes and hence
@@ -126,7 +126,7 @@ export default function Projects() {
             </p>
             <div style={{ marginTop: "30px" }}>
               <a
-                href="https://musicmart.netlify.app/"
+                href="https://musicalityapp.netlify.app/"
                 className={styles.button}
                 target="_blank"
                 rel="noreferrer"
@@ -134,9 +134,36 @@ export default function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://musicmart.netlify.app/"
+                href="https://github.com/alcatraz69/musicality/tree/development"
                 className={styles.button}
               >
+                Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" className={` ${styles.contentCard}`}>
+          <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
+            <img className={styles.contentImg} src={dummy} alt=""></img>
+          </div>
+          <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
+            <h2>Alcatraz UI - Component library</h2>
+            <p className={styles.contentDetails}>
+              This webapp, built using HTML, CSS and vanillaJS, is a simple note
+              taking app. The app uses localStorage to save the notes and hence
+              they're not lost even if you close your tab/browser. The app also
+              provides.
+            </p>
+            <div style={{ marginTop: "30px" }}>
+              <a
+                href="https://alcatrazui.netlify.app/"
+                className={styles.button}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+              <a href="https://github.com/alcatraz69" className={styles.button}>
                 Source Code
               </a>
             </div>
