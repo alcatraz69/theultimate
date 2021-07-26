@@ -119,10 +119,10 @@ export default function Projects() {
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>Musicality - Social Media App</h2>
             <p className={styles.contentDetails}>
-              This webapp, built using HTML, CSS and vanillaJS, is a simple note
-              taking app. The app uses localStorage to save the notes and hence
-              they're not lost even if you close your tab/browser. The app also
-              provides.
+              This full stack webapp, built using HTML, CSS and ReactJS, is a
+              social media app that consists of authentication and user specific
+              CRUD operations. The backend is built using MongoDB for the
+              database and Express to create a server.
             </p>
             <div style={{ marginTop: "30px" }}>
               <a
@@ -149,10 +149,9 @@ export default function Projects() {
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>Alcatraz UI - Component library</h2>
             <p className={styles.contentDetails}>
-              This webapp, built using HTML, CSS and vanillaJS, is a simple note
-              taking app. The app uses localStorage to save the notes and hence
-              they're not lost even if you close your tab/browser. The app also
-              provides.
+              This webapp, built using HTML, CSS and ReactJS is a UI library
+              that can be used in any web page by using the CDN in the header of
+              their HTML and applying the classes to their components
             </p>
             <div style={{ marginTop: "30px" }}>
               <a
