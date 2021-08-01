@@ -6,6 +6,7 @@ import musicflix from "./ProjectAssets/musicflixmockup.png";
 import musicmart from "./ProjectAssets/musicmartmockup.png";
 import quiz from "./ProjectAssets/qmockup.png";
 import dummy from "./ProjectAssets/dummy.jpg";
+import musicality from "./ProjectAssets/musicalitymockup.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -114,7 +115,7 @@ export default function Projects() {
 
         <div data-aos="zoom-in-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
-            <img className={styles.contentImg} src={dummy} alt=""></img>
+            <img className={styles.contentImg} src={musicality} alt=""></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>Musicality - Social Media App</h2>
