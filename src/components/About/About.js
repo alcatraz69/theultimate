@@ -21,11 +21,11 @@ const About = () => {
             company. I focus on writing accessible HTML, using modern CSS
             practices and JavaScript. When writing JavaScript, I prefer React,
             but I am open to adapting whichever framework is required. I've also
-            had experience working with Android.
+            had experience working on backend using Node Js and Express .
             <br />
             <br />I believe Project Based Learning is the best approach to learn
-            anything. Hence, I've got projects in all the different technologies
-            that.
+            anything. Hence, I've got projects in all the different
+            technologies.
             <br />
             <br />
             Here are a few technologies I've have been working with recently :

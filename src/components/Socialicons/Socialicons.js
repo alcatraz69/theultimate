@@ -10,38 +10,45 @@ const Socialicons = () => {
     <div>
       <ul className={styles.iList}>
         <li className={styles.icon}>
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/alcatraz69"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={github} alt="" />
-            </a>
-          
+          </a>
         </li>
 
         <li className={styles.icon}>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com/prem_kantikar_"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={twitter} alt="" />
-            </a>
-          
+          </a>
         </li>
 
         <li className={styles.icon}>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">
             <img src={instagram} alt="" />
-            </a>
-          
+          </a>
         </li>
 
         <li className={styles.icon}>
-            <a href="https://codesandbox.com" target="_blank" rel="noreferrer">
+          <a href="https://codesandbox.com" target="_blank" rel="noreferrer">
             <img src={codesand} alt="" />
-            </a>
-          
+          </a>
         </li>
 
         <li className={styles.icon}>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/prem-kantikar-849a28131/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={linkd} alt="" />
-            </a>
-          
+          </a>
         </li>
       </ul>
     </div>

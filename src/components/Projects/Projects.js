@@ -2,11 +2,7 @@ import { useEffect } from "react";
 import styles from "./Projects.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import musicflix from "./ProjectAssets/musicflixmockup.png";
-import musicmart from "./ProjectAssets/musicmartmockup.png";
-import quiz from "./ProjectAssets/qmockup.png";
 import dummy from "./ProjectAssets/dummy.jpg";
-import musicality from "./ProjectAssets/musicalitymockup.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -20,7 +16,11 @@ export default function Projects() {
       <section className={styles.contentSec}>
         <div data-aos="zoom-in-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
-            <img className={styles.contentImg} src={musicflix} alt=""></img>
+            <img
+              className={styles.contentImg}
+              src="https://i.imgur.com/mmlRCz1.png"
+              alt=""
+            ></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
             <h2>MusicFlix Video Library</h2>
@@ -52,7 +52,11 @@ export default function Projects() {
 
         <div data-aos="zoom-in-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
-            <img className={styles.contentImg} src={musicmart} alt=""></img>
+            <img
+              className={styles.contentImg}
+              src="https://i.imgur.com/Y7FGK6e.png"
+              alt=""
+            ></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>MusicMart E-commerce</h2>
@@ -84,7 +88,11 @@ export default function Projects() {
 
         <div data-aos="zoom-in-up" className={styles.contentCard}>
           <div /*data-aos="fade-right"*/ className={styles.contentimgSec}>
-            <img className={styles.contentImg} src={quiz} alt=""></img>
+            <img
+              className={styles.contentImg}
+              src="https://i.imgur.com/l33GtaJ.png"
+              alt=""
+            ></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
             <h2>Quizy App</h2>
@@ -115,7 +123,11 @@ export default function Projects() {
 
         <div data-aos="zoom-in-up" className={` ${styles.rev}`}>
           <div /*data-aos="fade-left"*/ className={styles.contentimgSec}>
-            <img className={styles.contentImg} src={musicality} alt=""></img>
+            <img
+              className={styles.contentImg}
+              src="https://i.imgur.com/gSHpDOv.png"
+              alt=""
+            ></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
             <h2>Musicality - Social Media App</h2>
