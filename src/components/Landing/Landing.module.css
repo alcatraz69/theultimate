@@ -62,6 +62,7 @@
   font-weight: 900;
   font-size: xxx-large;
   letter-spacing: 5px;
+  text-align: center;
 }
 
 .big_heading:nth-child(3) {

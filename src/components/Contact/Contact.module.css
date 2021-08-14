@@ -11,6 +11,12 @@
   line-height: 2rem;
 }
 
+@media (max-width: 920px) {
+  .contactSec {
+    margin: 180px 80px;
+  }
+}
+
 @media (max-width: 768px) {
   .contactSec {
     text-align: center;

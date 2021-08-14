@@ -48,6 +48,24 @@
   font-size: medium;
 }
 
+@media (max-width: 920px) {
+  .contentCard {
+    margin: 150px 0;
+  }
+  .rev {
+    margin: 150px 0;
+  }
+  .contentSec {
+    margin: 30px;
+  }
+  .contentDetailsSec {
+    padding: 0 20px;
+  }
+  .button {
+    padding: 12px 26px;
+  }
+}
+
 @media (max-width: 868px) {
   body {
     overflow-x: hidden;

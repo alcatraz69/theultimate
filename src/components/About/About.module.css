@@ -37,6 +37,14 @@ ul {
   left: -10px;
 }
 
+@media (max-width: 920px) {
+  .aboutSec {
+    margin: 160px 40px;
+  }
+  .aboutDes {
+    padding: 0 36px;
+  }
+}
 @media (max-width: 768px) {
   .aboutSec {
     flex-direction: column;
