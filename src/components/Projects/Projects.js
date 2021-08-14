@@ -23,7 +23,7 @@ export default function Projects() {
             ></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
-            <h2 style={{ marginTop: "0" }}>MusicFlix Video Library</h2>
+            <h2 className={styles.projectName}>MusicFlix Video Library</h2>
             <p className={styles.contentDetails}>
               This is a video library app built using MERN Stack. The App
               conists of Auth and user specific Library section which has liked
@@ -59,7 +59,7 @@ export default function Projects() {
             ></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
-            <h2 style={{ marginTop: "0" }}>MusicMart E-commerce</h2>
+            <h2 className={styles.projectName}>MusicMart E-commerce</h2>
             <p className={styles.contentDetails}>
               This is an E-Commerce app built using MERN Stack. The App conists
               of Auth and user specific Wishlist and Cart section, The App also
@@ -95,7 +95,7 @@ export default function Projects() {
             ></img>
           </div>
           <div /*data-aos="fade-left"*/ className={styles.contentDetailsSec}>
-            <h2 style={{ marginTop: "0" }}>Quizy App</h2>
+            <h2 className={styles.projectName}>Quizy App</h2>
             <p className={styles.contentDetails}>
               This is a fully responsive webapp, built using Typescript MERN is
               a Full-Stack webapp that hosts quiz of various interests it
@@ -130,7 +130,9 @@ export default function Projects() {
             ></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
-            <h2 style={{ marginTop: "0" }}>Musicality - Social Media App</h2>
+            <h2 className={styles.projectName}>
+              Musicality - Social Media App
+            </h2>
             <p className={styles.contentDetails}>
               This full stack webapp, built using HTML, CSS and ReactJS, is a
               social media app that consists of authentication and user specific
@@ -160,7 +162,9 @@ export default function Projects() {
             <img className={styles.contentImg} src={dummy} alt=""></img>
           </div>
           <div /*data-aos="fade-right"*/ className={styles.contentDetailsSec}>
-            <h2 style={{ marginTop: "0" }}>Alcatraz UI - Component library</h2>
+            <h2 className={styles.projectName}>
+              Alcatraz UI - Component library
+            </h2>
             <p className={styles.contentDetails}>
               This webapp, built using HTML, CSS and ReactJS is a UI library
               that can be used in any web page by using the CDN in the header of

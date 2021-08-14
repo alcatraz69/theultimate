@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.about {
+  padding-top: 40px;
+}
+
 .aboutSec {
   display: flex;
   margin: 160px 200px;
@@ -46,6 +50,10 @@ ul {
   }
 }
 @media (max-width: 768px) {
+  .about {
+    padding-top: 140px;
+  }
+
   .aboutSec {
     flex-direction: column;
     margin: 0 30px;

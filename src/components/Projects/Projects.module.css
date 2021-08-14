@@ -18,6 +18,10 @@
   width: 27rem;
 }
 
+.projectName {
+  margin-top: 0;
+}
+
 .contentDetails {
   /* background-color: black; */
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -93,5 +97,8 @@
   }
   .projectHeading {
     margin: 100px 0 100px 0;
+  }
+  .projectName {
+    margin-top: 20px;
   }
 }

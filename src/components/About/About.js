@@ -9,7 +9,7 @@ const About = () => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div id="about" style={{ paddingTop: "40px" }}>
+    <div id="about" className={styles.about}>
       <div /*data-aos="fade-up"*/ className={styles.aboutSec}>
         <div data-aos="fade-right" className={styles.aboutImgSec}>
           <img className={styles.aboutImg} src={profileImg} alt=""></img>
